@@ -1,0 +1,5 @@
+
+public class PopMexico {
+	private static double startingPop = 123.8;
+	private static double growthRate = 0.05;
+}

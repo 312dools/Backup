@@ -1,0 +1,7 @@
+public class Main {
+
+	public static void main(String args[]) {
+		double unlearned = 0; //Percent
+		double learned = 0; //Percent
+	}
+}

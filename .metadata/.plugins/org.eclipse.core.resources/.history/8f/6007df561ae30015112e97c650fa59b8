@@ -1,0 +1,16 @@
+import java.util.*;
+
+
+public class PopMexico {
+	private static final double startingPop = 123.8;
+	private static final double growthRate = 0.05;
+	private static final int startingYear = 2014;
+	
+	Scanner sc = new Scanner(System.in);
+	
+	public static void main(String args[]) {
+		
+	}
+	
+	
+}

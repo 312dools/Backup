@@ -1,0 +1,5 @@
+
+public class PopMexico {
+	private static int startingPop = 123.8;
+	
+}
