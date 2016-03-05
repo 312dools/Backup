@@ -1,6 +1,7 @@
 public class Main {
 
 	public static void main(String args[]) {
+		//GitHub test
 		double unlearned = 100; //Percent
 		double learned = 0; //Percent
 		int months = 0;
