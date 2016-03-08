@@ -1,0 +1,63 @@
+import java.util.*;
+
+public class Main {
+
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		int cents = sc.nextInt();
+
+		int quarters = 0;
+		int dimes = 0;
+		int nickels = 0;
+		int pennies = 0;
+		
+		for(int q = 0; q*25 < cents; q++) {
+			for(int d = 0; d*10 < cents-q*25) {
+				for(int n = 0; n*5 < cents-n*10)
+			}
+		}
+
+		// for(int p = 0; p < cents; p++) {
+		//// System.out.println("Pennies: " + cents);
+		// for(int d = 0; d*10 < cents; d++) {
+		//
+		// }
+		//
+		// for(int n = 0; n*5 < cents; n++) {
+		// System.out.println("Quarters: 0 Dimes: 0 Nickels : " + n + " Pennies:
+		// " + (cents-(n*5)));
+		// }
+		// }
+
+		// quarters = cents / 25;
+		// dimes = (cents - (quarters * 25)) / 10;
+		// nickels = (cents - (dimes * 10 + quarters * 25)) / 5;
+		// pennies = cents - (quarters * 25 + dimes * 10 + nickels * 5);
+		//
+		// System.out.println(quarters);
+		// System.out.println(dimes);
+		// System.out.println(nickels);
+		// System.out.println(pennies);
+
+	}
+
+	// public static ArrayList<ArrayList<ArrayList<ArrayList<Integer>>>>
+	// splitQuarters(int quarters) {
+	// ArrayList<ArrayList<ArrayList<ArrayList<Integer>>>> qDNP = new
+	// ArrayList<ArrayList<ArrayList<ArrayList<Integer>>>>(
+	// 0);
+	// return qDNP;
+	// }
+	//
+	// public static ArrayList<ArrayList<ArrayList<Integer>>> splitDimes(int
+	// dimes) {
+	// ArrayList<ArrayList<ArrayList<Integer>>> dNP = new
+	// ArrayList<ArrayList<ArrayList<Integer>>>(0);
+	// return dNP;
+	// }
+	//
+	// public static ArrayList<ArrayList<Integer>> splitNickels(int nickels) {
+	// ArrayList<ArrayList<Integer>> nP = new ArrayList<ArrayList<Integer>>(0);
+	// return nP;
+	// }
+}
