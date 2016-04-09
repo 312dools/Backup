@@ -1,0 +1,14 @@
+import java.awt.*;
+import java.awt.event.*;
+
+public class AWTCounter extends Frame implements ActionListener {
+
+	private Label lblcount;
+	private TextField tfCount;
+	private Button btncount;
+	private int count = 0;
+	
+	public AWTCounter() {
+		setLayout(newFlowLayout());
+	}
+}
